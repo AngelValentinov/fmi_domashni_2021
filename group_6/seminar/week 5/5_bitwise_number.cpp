@@ -12,12 +12,11 @@ int main()
 	unsigned biggestCurrent = 0;
 		while (number)
 		{
-
 			if ((number & 1))
 			{
 				onesCounter++;
 			}
-			
+
 			if (biggestCurrent < onesCounter)
 			{
 				biggestCurrent = onesCounter;
@@ -27,13 +26,10 @@ int main()
 			{
 				onesCounter = 0;
 			}
-			
+
 			number = number >> 1;
 		}
 		cout << biggestCurrent;
-
-
-
 
 	return 0;
 }
