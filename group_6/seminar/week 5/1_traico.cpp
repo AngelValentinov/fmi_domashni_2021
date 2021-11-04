@@ -2,7 +2,7 @@
 using namespace std;
 int main()
 {
-  
+
 	int tomatoes, pappers, carrots, olives, potatoes, additives;
 	bool friendInNeed;
 
@@ -15,15 +15,6 @@ int main()
 	bool forGuvec = tomatoes >= 5 && pappers >= 6 && carrots >= 12 && olives >= 7 && potatoes >= 12 && additives >= 300;
 
 	bool enoughResources = (forSalat) || (forSoup && friendInNeed) || (forGuvec && friendInNeed);
-
-	if (enoughResources)
-	{
-		cout << "Enough resources";
-	}
-	else
-	{
-		cout << "Not enough.";
-	}
 
 	return 0;
 

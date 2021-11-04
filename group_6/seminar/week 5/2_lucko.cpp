@@ -13,14 +13,7 @@ int main()
 	bool buyLaptop = ((priceLaptop >= 1000 && priceLaptop <= 1500) && (usbPorts >= 3) && (ram >= 8) && hasSsd)
 	 || ((priceLaptop < 800) && (ram < 8) && !hasSsd);
 
-	if (buyLaptop)
-	{
-		cout << "Buy laptop";
-	}
-	else
-	{
-		cout << "Do not buy";
-	}
+
 
 	return 0;
 }
