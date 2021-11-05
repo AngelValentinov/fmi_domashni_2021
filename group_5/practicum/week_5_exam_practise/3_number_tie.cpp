@@ -15,18 +15,30 @@ int main()
 			cout << j << " ";
 		}
 		// Distance prints two spaces
-		for (size_t j = 0; j < (number - i) * 2; j++)
+		for (size_t j = 0; j < (number - i); j++)
 		{
 			cout << "  ";
 		}
-		// IDK how the formula for the number of  '-' 
-		// It will affect the above formaula as well
 
-		//if(i == number){
-		// for{
-		//	cout<<"-";
-		// }}
-		
+		// The "central" spaces
+		for (size_t j = 0; j < number; j++)
+		{
+			if (i != number) {
+
+				cout << " ";
+			}
+			else
+			{
+				cout << "-";
+			}
+		}
+
+
+		cout << " ";
+		for (size_t j = 0; j < number -i; j++)
+		{
+			cout << "  ";
+		}
 		//Print right numbers
 		for (size_t j = i; j > 0; j--)
 		{
@@ -38,13 +50,28 @@ int main()
 
 	}
 
-	for (size_t i = 1; i <number; i++)
+	for (size_t i = 1; i < number; i++)
 	{
-		for (size_t j = 1; j <= number-i; j++)
+		for (size_t j = 1; j <= number - i; j++)
 		{
 			cout << j << " ";
+			
 		}
-		for (size_t j = 0; j < i*2; j++)
+
+		//spaces to the middle
+		for (size_t j = 0; j < i; j++)
+		{
+			cout << "  ";
+		}
+		// spaces in the middle
+		for (size_t j = 0; j < number; j++)
+		{
+			cout << " ";
+		}
+		cout << " ";
+
+		//spaces right side
+		for (size_t j = 0; j < i; j++)
 		{
 			cout << "  ";
 		}
