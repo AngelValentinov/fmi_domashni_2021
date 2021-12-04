@@ -11,7 +11,7 @@ unsigned int StrLen(const char str[])
     return i;
 }
 
-void leaveNumbers(char str[], char strNumber[])
+void leaveNumbers(const char str[], char strNumber[])
 {
 
     unsigned length = StrLen(str);
@@ -28,7 +28,7 @@ void leaveNumbers(char str[], char strNumber[])
     strNumber[j] = '\0';
 }
 
-void fillNumberArray(int numberString[], char str[])
+void fillNumberArray(int numberString[], const char str[])
 {
     unsigned len = StrLen(str);
     for (int i = 0; i < len; i++)
