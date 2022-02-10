@@ -1,0 +1,3 @@
+﻿  7_check_number.cpp
+C:\Users\Angel\Documents\week_4\7_check_number\7_check_number.cpp(17,44): warning C4018: '<=': signed/unsigned mismatch
+  7_check_number.vcxproj -> C:\Users\Angel\Documents\week_4\Debug\7_check_number.exe

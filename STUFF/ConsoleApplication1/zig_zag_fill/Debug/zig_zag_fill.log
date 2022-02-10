@@ -1,0 +1,4 @@
+﻿  zig_zag_fill.cpp
+C:\Users\Angel\Documents\ConsoleApplication1\zig_zag_fill\zig_zag_fill.cpp(7,26): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Angel\Documents\ConsoleApplication1\zig_zag_fill\zig_zag_fill.cpp(9,30): warning C4018: '<': signed/unsigned mismatch
+  zig_zag_fill.vcxproj -> C:\Users\Angel\Documents\ConsoleApplication1\Debug\zig_zag_fill.exe
